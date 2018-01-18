@@ -35,8 +35,20 @@ end
 get_the_email_of_a_townhall_from_its_webpage("http://annuaire-des-mairies.com/95/vaureal.html")
 
 def get_all_emails
-  page_Email_ville = []
+  all_emails = []
   get_all_the_urls_of_val_doise_townhalls.each { |url| page_Email_ville.push @urls_townhalls }
+end
+
+# Code Arnold: https://github.com/Arnolddomaya/parsing_ruby/blob/master/projet_parsing/route_mairie.rb
+def perform()
+  res = []
+  get_all_the_urls_of_val_doise_townhalls().each do |mairie_url|
+    nom = mairie_url.text
+    email = get_the_email_of_a_townhal_from_its_webpage(mairie_url["href"])
+    #puts "nom : #{nom}  email: #{email}"
+    res << {:name =>nom , :email=>email }
+  end
+  res
 end
 
 =begin

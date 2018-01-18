@@ -4,7 +4,7 @@ a. Route de la mairie
 
 2ème partie: Route_de_la_mairie2.rb
 
-3ème partie: Route_de_la_mairie3.rb
+3ème partie: Route_de_la_mairie3.rb (pas terminé)
 
 b. Trader de l'obscur
 
