@@ -1,4 +1,4 @@
-a. Route de la mairie
+a. Route de la mairie*
 
 1ère partie: Route_de_la_mairie.rb
 
@@ -17,3 +17,5 @@ Pas fait, pas eu le temps.
 Ciao!
 
 - Simon
+
+*Pour la correction, il faut tester les fichiers Route_de_la_mairie.rb et Route_de_la_mairie2.rb séparément car le fichier  Route_de_la_mairie3.rb ne fonctionne pas complètement.
